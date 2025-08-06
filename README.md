@@ -1,6 +1,7 @@
 🪙 **Gold Price Prediction Using Machine Learning**
 
 📘 **Project Overview**
+
 This project focuses on predicting gold prices using historical data scraped from Yahoo Finance. The aim is to analyze market trends and apply machine learning models to forecast future prices, helping investors and businesses make informed financial decisions.
 
 🧩 **Problem Statement**
@@ -19,15 +20,17 @@ Web Scraping: yfinance Python package
 Environment: Jupyter Notebook
 
 📁 **Dataset**
+
 Source: Yahoo Finance (yfinance library)
 
-Period: Historical gold price data from [Start Date] to [End Date]
+Period: Historical gold price data from [Jan 2010] to [Jan 2024]
 
 Features:
 
 Date, Open, High, Low, Close, Volume, Adjusted Close
 
 📊 **Data Preprocessing**
+
 Removed null values and cleaned data
 
 Converted date columns and indexed the dataset
@@ -43,9 +46,14 @@ Lagged variables for time series modeling
 📈 **Exploratory Data Analysis (EDA)**
 Visualized gold price trends over time
 
+<img width="1783" height="669" alt="image" src="https://github.com/user-attachments/assets/06399b8c-e2ab-4c00-bc77-2644144c8773" />
+
 Analyzed seasonal patterns and volatility
 
 Correlation matrix to identify feature importance
+
+<img width="812" height="686" alt="image" src="https://github.com/user-attachments/assets/09b1234b-2e9b-4678-ac9b-40826364824a" />
+
 
 🤖 **Model Building**
 Regression Models Used:
@@ -54,7 +62,17 @@ Linear Regression
 
 Random Forest Regressor
 
-XGBoost Regressor
+ Ridge Regression
+ 
+ Lasso Regression
+ 
+ Elastic net
+ 
+ Decision Tree Regressor
+ 
+ Gradient Boosting Regressor
+ 
+ Support vector machine 
 
 **Evaluation Metrics:**
 
@@ -65,21 +83,10 @@ Mean Squared Error (MSE)
 R-squared (R² Score)
 
 ✅ **Results**
-Model	R² Score	MAE
-Linear Regression	0.83	25.4
-Random Forest	0.92	15.8
-XGBoost	0.94	13.2
+Model	R² Score	
 
-📌 XGBoost outperformed other models with the highest accuracy and lowest error.
+<img width="400" height="369" alt="image" src="https://github.com/user-attachments/assets/eba05c16-7f21-4f58-a834-2f1cb30e708d" />
 
-📸 **Visualizations**
-Line plots comparing actual vs predicted prices
-
-Feature importance chart from XGBoost
-
-Rolling average vs price trend graph
-
-(Add screenshots or saved graphs here if possible)
 
 🚀 **Future Enhancements**
 Deploy the model using Flask or Streamlit
