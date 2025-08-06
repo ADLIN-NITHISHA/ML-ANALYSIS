@@ -14,15 +14,15 @@ Gold is considered a key economic indicator and a safe-haven investment. Accurat
 
 **Tools & Technologies**
 
-Language: Python
+    Language: Python
 
-Libraries: pandas, numpy, scikit-learn, matplotlib, seaborn
+    Libraries: pandas, numpy, scikit-learn, matplotlib, seaborn
 
-Modeling: Linear Regression, Random Forest, XGBoost
+    Modeling: Linear Regression, Random Forest, XGBoost
 
-Web Scraping: yfinance Python package
+    Web Scraping: yfinance Python package
 
-Environment: Jupyter Notebook
+    Environment: Jupyter Notebook
 
 
 
