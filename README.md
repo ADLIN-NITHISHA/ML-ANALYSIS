@@ -4,9 +4,13 @@
 
 This project focuses on predicting gold prices using historical data scraped from Yahoo Finance. The aim is to analyze market trends and apply machine learning models to forecast future prices, helping investors and businesses make informed financial decisions.
 
+
+
 **Problem Statement**
 
 Gold is considered a key economic indicator and a safe-haven investment. Accurately predicting its price helps in strategic planning for trading, hedging, and investment. This project uses machine learning algorithms to model and forecast gold prices based on past trends.
+
+
 
 **Tools & Technologies**
 
@@ -20,6 +24,8 @@ Web Scraping: yfinance Python package
 
 Environment: Jupyter Notebook
 
+
+
 **Dataset**
 
 Source: Yahoo Finance (yfinance library)
@@ -29,6 +35,8 @@ Period: Historical gold price data from [Jan 2010] to [Jan 2024]
 Features:
 
 Date, Open, High, Low, Close, Volume, Adjusted Close
+
+
 
 **Data Preprocessing**
 
@@ -44,6 +52,8 @@ Percentage returns
 
 Lagged variables for time series modeling
 
+
+
 **Exploratory Data Analysis (EDA)**
 
 Visualized gold price trends over time
@@ -55,6 +65,7 @@ Analyzed seasonal patterns and volatility
 Correlation matrix to identify feature importance
 
 <img width="812" height="686" alt="image" src="https://github.com/user-attachments/assets/09b1234b-2e9b-4678-ac9b-40826364824a" />
+
 
 
 **Model Building**
@@ -78,6 +89,8 @@ Random Forest Regressor
  Support vector machine 
 
 
+
+
 **Evaluation Metrics:**
 
 Mean Absolute Error (MAE)
@@ -87,10 +100,14 @@ Mean Squared Error (MSE)
 R-squared (R² Score)
 
 
+
+
 **Results**
 Model	R² Score	
 
 <img width="400" height="369" alt="image" src="https://github.com/user-attachments/assets/eba05c16-7f21-4f58-a834-2f1cb30e708d" />
+
+
 
 
 **Future Enhancements**
@@ -102,6 +119,9 @@ Incorporate external economic indicators (e.g., inflation, interest rates)
 Fine-tune hyperparameters for improved accuracy
 
 Explore LSTM model for time series forecasting
+
+
+
 
 
 **My Role**
