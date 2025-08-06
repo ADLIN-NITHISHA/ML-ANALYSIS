@@ -18,7 +18,7 @@ Language: Python
 
 Libraries: pandas, numpy, scikit-learn, matplotlib, seaborn
 
-Modeling: Linear Regression, Random Forest, XGBoost
+Modeling: Linear Regression, Random Forest, Ridge, Lasso, SVM, etc.
 
 Web Scraping: yfinance Python package
 
