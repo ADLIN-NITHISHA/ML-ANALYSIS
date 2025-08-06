@@ -1,13 +1,13 @@
-🪙 **Gold Price Prediction Using Machine Learning**
+ **Gold Price Prediction Using Machine Learning**
 
-📘 **Project Overview**
+ **Project Overview**
 
 This project focuses on predicting gold prices using historical data scraped from Yahoo Finance. The aim is to analyze market trends and apply machine learning models to forecast future prices, helping investors and businesses make informed financial decisions.
 
-🧩 **Problem Statement**
+**Problem Statement**
 Gold is considered a key economic indicator and a safe-haven investment. Accurately predicting its price helps in strategic planning for trading, hedging, and investment. This project uses machine learning algorithms to model and forecast gold prices based on past trends.
 
-🛠️ **Tools & Technologies**
+**Tools & Technologies**
 
 Language: Python
 
@@ -19,7 +19,7 @@ Web Scraping: yfinance Python package
 
 Environment: Jupyter Notebook
 
-📁 **Dataset**
+**Dataset**
 
 Source: Yahoo Finance (yfinance library)
 
@@ -29,7 +29,7 @@ Features:
 
 Date, Open, High, Low, Close, Volume, Adjusted Close
 
-📊 **Data Preprocessing**
+**Data Preprocessing**
 
 Removed null values and cleaned data
 
@@ -43,7 +43,7 @@ Percentage returns
 
 Lagged variables for time series modeling
 
-📈 **Exploratory Data Analysis (EDA)**
+**Exploratory Data Analysis (EDA)**
 
 Visualized gold price trends over time
 
@@ -56,7 +56,8 @@ Correlation matrix to identify feature importance
 <img width="812" height="686" alt="image" src="https://github.com/user-attachments/assets/09b1234b-2e9b-4678-ac9b-40826364824a" />
 
 
-🤖 **Model Building**
+**Model Building**
+
 Regression Models Used:
 
 Linear Regression
@@ -75,6 +76,7 @@ Random Forest Regressor
  
  Support vector machine 
 
+
 **Evaluation Metrics:**
 
 Mean Absolute Error (MAE)
@@ -83,13 +85,14 @@ Mean Squared Error (MSE)
 
 R-squared (R² Score)
 
-✅ **Results**
+
+**Results**
 Model	R² Score	
 
 <img width="400" height="369" alt="image" src="https://github.com/user-attachments/assets/eba05c16-7f21-4f58-a834-2f1cb30e708d" />
 
 
-🚀 **Future Enhancements**
+**Future Enhancements**
 
 Deploy the model using Flask or Streamlit
 
@@ -100,7 +103,7 @@ Fine-tune hyperparameters for improved accuracy
 Explore LSTM model for time series forecasting
 
 
-👩‍💻 **My Role**
+**My Role**
 
 Web scraped financial data using yfinance
 
