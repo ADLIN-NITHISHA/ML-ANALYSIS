@@ -5,6 +5,7 @@
 This project focuses on predicting gold prices using historical data scraped from Yahoo Finance. The aim is to analyze market trends and apply machine learning models to forecast future prices, helping investors and businesses make informed financial decisions.
 
 **Problem Statement**
+
 Gold is considered a key economic indicator and a safe-haven investment. Accurately predicting its price helps in strategic planning for trading, hedging, and investment. This project uses machine learning algorithms to model and forecast gold prices based on past trends.
 
 **Tools & Technologies**
