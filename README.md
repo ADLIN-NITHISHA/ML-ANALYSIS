@@ -44,6 +44,7 @@ Percentage returns
 Lagged variables for time series modeling
 
 📈 **Exploratory Data Analysis (EDA)**
+
 Visualized gold price trends over time
 
 <img width="1783" height="669" alt="image" src="https://github.com/user-attachments/assets/06399b8c-e2ab-4c00-bc77-2644144c8773" />
@@ -89,6 +90,7 @@ Model	R² Score
 
 
 🚀 **Future Enhancements**
+
 Deploy the model using Flask or Streamlit
 
 Incorporate external economic indicators (e.g., inflation, interest rates)
@@ -97,7 +99,9 @@ Fine-tune hyperparameters for improved accuracy
 
 Explore LSTM model for time series forecasting
 
+
 👩‍💻 **My Role**
+
 Web scraped financial data using yfinance
 
 Engineered features and conducted full EDA
